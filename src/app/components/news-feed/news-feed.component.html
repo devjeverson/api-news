@@ -1,0 +1,13 @@
+<div class="news-container">
+   <h2>Últimas Notícias</h2>
+   
+   <div class="news-card" *ngFor="let news of newsList">
+     <img *ngIf="news.urlToImage" [src]="news.urlToImage" alt="Imagem da notícia">
+     <div class="news-content">
+       <h3>{{ news.title }}</h3>
+       <p>{{ news.description }}</p>
+       <a [href]="news.url" target="_blank">Leia mais</a>
+     </div>
+   </div>
+ </div>
+ 
