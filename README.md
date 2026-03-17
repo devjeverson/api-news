@@ -1,20 +1,55 @@
-# ApiNews
+📰 News App - Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.15.
+### Aplicação web desenvolvida em Angular que consome uma API de notícias e exibe conteúdos atualizados em tempo real.
 
-## Development server
+##🚀 Funcionalidades
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Listagem de notícias em formato de cards
 
-## Code scaffolding
+Consumo de API REST
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Exibição de título, imagem e descrição
 
-## Build
+Redirecionamento para a notícia completa
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Interface responsiva
 
-## Running unit tests
+## 🛠️ Tecnologias
+
+Angular
+
+TypeScript
+
+RxJS
+
+HTML5 + CSS3
+
+### 🔌 Integração
+
+A aplicação utiliza o HttpClient do Angular para consumir uma API de notícias (ex: NewsAPI), retornando dados em JSON.
+
+## 📦 Estrutura
+
+components/ → responsáveis pela interface
+
+services/ → consumo da API
+
+models/ → tipagem dos dados
+
+▶️ Como rodar o projeto
+# instalar dependências
+npm install
+
+# rodar aplicação
+ng serve
+
+Acesse: http://localhost:4200
+
+## 📌 Observações
+
+Necessário configurar a API Key da API de notícias
+
+Pode ser expandido com filtros, busca e paginação
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
